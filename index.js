@@ -112,7 +112,7 @@ window.addEventListener("scroll",function(){
         bars[7].classList.add("php");
         var percens=this.document.querySelectorAll('.myskills  .percen');
         percens.forEach(percen=> {
-            percen.style.animation ='show .3s forwards 1s';
+            percen.style.animation ='show .3s forwards .7s';
         });
     }
     if (this.scrollY >1640 & this.innerWidth<960){
@@ -123,7 +123,7 @@ window.addEventListener("scroll",function(){
         bars[3].classList.add("db");
         var percens=this.document.querySelectorAll('.programming .percen');
         percens.forEach(percen=> {
-            percen.style.animation ='show .3s forwards 1s';
+            percen.style.animation ='show .3s forwards .7s';
         });
     }
     if (this.scrollY >2140 & this.innerWidth<960){
@@ -134,7 +134,7 @@ window.addEventListener("scroll",function(){
         bars[3].classList.add("php");
         var percens=this.document.querySelectorAll('.web .percen');
         percens.forEach(percen=> {
-            percen.style.animation ='show .3s forwards 1s';
+            percen.style.animation ='show .3s forwards .7s';
         });
 
     }

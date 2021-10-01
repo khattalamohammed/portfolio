@@ -244,12 +244,12 @@ p{
   font-size: 18px;
   font-family: sans-serif;
   cursor: pointer;
-  transition: border-color 0.5s ease;
+  transition: all 0.5s ease;
 } 
 #home .btn{
     opacity:0;
     transform: translateY(10px);
-    animation: fade_in 1s forwards 2.5s;
+    animation: fade_in 1s forwards 3s;
 }
 #home button:hover{
   border-color: #031b88;
@@ -441,11 +441,11 @@ p{
 }
 .scroll-up-btn{
   position: fixed;
-  height: 40px;
+  height: 45px;
   width: 37px;
-  background: #005248;
+  background: #031b88;
   right: 20px;
-  bottom: 50px;
+  bottom: 20px;
   text-align: center;
   line-height: 45px;
   color: #fff;
