@@ -9,7 +9,7 @@ burger.addEventListener("click",function(){
             if (link.style.animation) {
             link.style.animation = "";
             }else{
-                link.style.animation = 'navAnim  1s forwards '+(index/7)+'s';
+                link.style.animation = 'navAnim  .8s forwards '+(index/7)+'s';
             }
             console.log(index/7);
     });
@@ -53,7 +53,7 @@ var timer1=setInterval(() => {
         clearInterval(timer1);
         return;
     }
-}, 20);
+}, 50);
 
 
 var profession=document.querySelector(".profession");
@@ -77,7 +77,7 @@ var Timer2=setInterval(() => {
         clearInterval(Timer2);
         return;
     }
-}, 20);
+}, 50);
 
 window.addEventListener("scroll",function(){
     // sticky navbar on scroll script
